@@ -1,0 +1,129 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+.fondo {
+	background-image: url('../img/paleta_huguito.png');
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 30px;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.header1 {
+	padding: 30px;
+	color: black;
+	font-size: 200%;
+}
+
+.orden1 {
+	margin: 30px;
+}
+
+.carrusel1 {
+	padding:30px;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	display: flex;
+}
+
+.carrusel.img {
+	margin:10px;
+	padding:0px;
+	width: 350px;
+	display: flex;
+	border: solid 5px orange;
+	border-radius: 30px;
+}
+
+.carrusel.text {
+	text-align: center;
+}
+
+.contacto.img {
+	padding: 30px;
+	width: 70px;
+}
+
+.convenio {
+	padding:20px;
+	color: white;
+	background: black;
+	
+}
+
+.carrusel {
+	text-align: center;
+}
+.carrusel.img2 {
+	padding: 0px;
+	width: 125px;
+}
+
+.convenio.img2.ford {
+	margin:10px;
+	background: transparent url('https://www.ford.com/cmslibs/etc/designs/brand_ford/brand/skin/ford/img/bsr-sprite2x.png') no-repeat -300px 0px;
+	padding: 30px 7px;
+	width: 125px;
+	background-size: auto 300px;
+	display: inline-block;
+}
+
+.convenio.img2.porsche {
+	padding: 10px;
+	height: 85px;
+}
+
+.convenio.img2.mercedes {
+	background: transparent url('https://www.kaufmann.cl/o/kaufmann-theme-ventaonline/img/ventaonline/tema/logo-landings.png') no-repeat 0px 0px;
+	padding: 35px;
+	background-size: auto 70px;
+	display: inline-block;
+}
+
+.convenio.img2.peugeot {
+	padding: 10px;
+	height: 80px;
+}
+
+.sucursal {
+	margin:0px;
+}
+
+.sucursal.text {
+	margin:30px;
+}
+
+.sucursal.iframe {
+	margin:30px;
+	border: solid 0px orange;
+	border-radius: 30px;
+}
+
+
+.footer {
+	padding:30px
+}
+
+.test1 {
+	float:left
+	
+}
+
+.test_color1 {
+	background:#00bcd4; height: 25%; width: 100%
+}
+
+.test_color2 {
+	background:#ffeb3b; height: 25%; width: 100%
+}
+
+.test_color3 {
+	background:orange; height: 25%; width: 100%
+}
+
+.test_color4 {
+	background:black; height: 25%; width: 100%; color: white; padding: 30px;
+}
