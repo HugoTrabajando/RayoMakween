@@ -16,10 +16,83 @@
 	padding: 30px;
 	color: black;
 	font-size: 200%;
+	display: flex;
+}
+
+.header1.img {
+	margin:10px;
+	background: transparent url('../img/autito_logo.svg') no-repeat 0px -34px;
+	padding: 18px 0px;
+	width: 125px;
+	background-size: auto 100px;
+	display: inline-block;
 }
 
 .orden1 {
 	margin: 30px;
+}
+
+.orden1.buscador {
+	margin: 15px 30px 0px 30px;
+	width: 75%;
+	display: flex;
+}
+
+.orden1.buscador.button {
+	margin: 0px;
+	padding: 15px;
+	width: auto;
+	display: flex;
+	align-content: center;
+}
+
+.orden1.index {
+	margin: 10px 0px 0px 30px;
+	display: inline-block;
+}
+
+.orden1.contacto {
+	margin: 10px 0px 0px 30px;
+	display: inline-block;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 30px;
+}
+
+.orden1.contacto.mensaje {
+	margin: 10px 0px 0px 30px;
+	display: inline-block;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 491px;
+	min-width: 491px;
+	height: 100px;
+}
+
+.orden1.contacto.button {
+	margin: 30px;
+	padding: 15px;
+	width: auto;
+	display: flex;
+	align-content: center;
+}
+
+.orden1.registro {
+	margin: 10px 0px 0px 30px;
+	display: inline-block;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 300px;
+	height: 30px;
+}
+
+.orden1.registro.button {
+	margin: 5px 20px;
+	padding: 15px;
+	width: auto;
+	display: flex;
+	align-content: center;
 }
 
 .carrusel1 {
@@ -125,5 +198,5 @@
 }
 
 .test_color4 {
-	background:black; height: 25%; width: 100%; color: white; padding: 30px;
+	background:black; height: 25%; color: white; padding: 30px;
 }
