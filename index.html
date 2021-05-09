@@ -5,30 +5,25 @@
 	<!-- HAY QUE LLAMAR UN DISEÑO TUYO O DE BOOTSTRAP :) -->
 	<link type="text/css" rel="stylesheet" href="css/bootstap.css"> 
 	<link type="text/css" rel="stylesheet" href="css/fuente_letra.css">
-	<link type="text/css" rel="stylesheet" href="css/orden.css">  
+	<link type="text/css" rel="stylesheet" href="css/orden.css">
+	<script src="./js/script.js"></script>
+	<script src="./js/jquery-3.6.0.min.js"></script>
 </head>
 <body class="body">
-
 <div class="container-fluid">
 	<!-- creo que esto es fila-->
 		<div>
-			<!-- <div class="row" style="float: left; padding: 40px; background: grey; width: 80px; height:100%" >
-				<p class="nada">Inicio</p>
-				<p class="nada">Nosotros</p>
-				<p class="nada">Perros</p>
-				<p class="nada">Gatos</p>
-				<p class="nada">Contactos</p>
-			
-			</div>
-		-->
+		
 		<header class="fondo header1"> <a class="header1 img" href="./index.html"></a> RAYO MAKWEEN </header>
 		<!--indices-->
+		
 		<div class="orden1 index">
 		<a class="orden1 index" href="./index.html"> Inicio</a>
 		<a class="orden1 index" href="./buscar.html"> Búsqueda</a> 
 		<a class="orden1 index" href="./contacto.html"> Contacto</a> 
 		<a class="orden1 index" href="./registro.html"> Registro</a> 
 		<a class="orden1 index" href="./login.html"> Autenticar</a> 
+		<button class="orden1 index" onclick="recuperar_ip()">Recuperar Ip</button>
 
 		</div>
 		<!--FIN indices-->
@@ -40,34 +35,69 @@
 				<h1 class="orden1">Ultimos trabajos</h1>
 				<h3 class="orden1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem beatae sed dolor doloribus, ipsum cumque dolore consequatur. Voluptatibus mollitia ullam ipsam nobis voluptatum reprehenderit porro suscipit est, aperiam, nemo officia.</h3>
 				<div class="carrusel1"> 
+				<input type="checkbox" id="ejemplo1-checkbox" >
+				<input type="checkbox" id="ejemplo2-checkbox" >
+				<input type="checkbox" id="ejemplo3-checkbox" >
+				<input type="checkbox" id="ejemplo4-checkbox" >
+				<input type="checkbox" id="ejemplo5-checkbox" >
 					<!--1er trabajo ejemplo-->
 					<div class="">
 						<img class="carrusel img" src="./img/ejemplos1.jpg"> 
-						<div class="carrusel text">Modificaciones físicas personalizadas</div>
+						<label for="ejemplo1-checkbox" class="carrusel text">Modificaciones físicas personalizadas</label>
+					</div>
+					<div class="ejemplo1">
+						<h3>Diagnostico: Auto sin estilo estético</h3>
+						<h3>Mecánico: Jacinto Rojas Hernandez</h3>
+						<h3>Fecha: 01-02-2021</h3>
+						<h3>Listado materiales usados: acero, aluminio</h3>
 					</div>
 					<!--FIN 1er trabajo ejemplo-->
 					<!--2do trabajo ejemplo-->
 					<div class="">
 						<img class="carrusel img" src="./img/ejemplos2.jpg"> 
-						<div class="carrusel text">Restauración de autos de categoría Reliquia</div>
+						<label for="ejemplo2-checkbox" class="carrusel text">Restauración de autos de categoría Reliquia</label>
+					</div>
+					<div class="ejemplo2">
+						<h3>Diagnostico: Auto con oxido</h3>
+						<h3>Mecánico: Jacinto Rojas Hernandez</h3>
+						<h3>Fecha: 10-02-2021</h3>
+						<h3>Listado materiales usados: acero, aluminio, titanio, quitaoxido</h3>
 					</div>
 					<!--FIN 2do trabajo ejemplo-->
 					<!--3er trabajo ejemplo-->
 					<div class="">
 						<img class="carrusel img" src="./img/ejemplos3.jpg"> 
-						<div class="carrusel text">Reparación de motocicletas</div>
+						<label for="ejemplo3-checkbox" class="carrusel text">Reparación de motocicletas</label>
+					</div>
+					<div class="ejemplo3">
+						<h3>Diagnostico: Motocicleta dañada por caida al Mapocho</h3>
+						<h3>Mecánico: Jacinto Rojas Hernandez</h3>
+						<h3>Fecha: 20-02-2021</h3>
+						<h3>Listado materiales usados: kevlar, destornillador, taladro, martillo</h3>
 					</div>
 					<!--FIN 3er trabajo ejemplo-->
 					<!--4to trabajo ejemplo-->
 					<div class="">
 						<img class="carrusel img" src="./img/ejemplos4.jpg"> 
-						<div class="carrusel text">Texturas y Pinturas automotriz</div>
+						<label for="ejemplo4-checkbox" class="carrusel text">Texturas y Pinturas automotriz</label>
+					</div>
+					<div class="ejemplo4">
+						<h3>Diagnostico: Necesita personalización</h3>
+						<h3>Mecánico: Jacinto Rojas Hernandez</h3>
+						<h3>Fecha: 10-03-2021</h3>
+						<h3>Listado materiales usados: Aguarras, Masking Tape, Nylon, Tinte texturizado</h3>
 					</div>
 					<!--FIN 4to trabajo ejemplo-->
 					<!--5to trabajo ejemplo-->
 					<div class="">
 						<img class="carrusel img" src="./img/ejemplos5.jpg"> 
-						<div class="carrusel text">Trabajos profesionales de encerado y cromado</div>
+						<label for="ejemplo5-checkbox" class="carrusel text">Trabajos profesionales de encerado y cromado</label>
+					</div>
+					<div class="ejemplo5">
+						<h3>Diagnostico: Necesita brillo exagerado y encerado exagerado</h3>
+						<h3>Mecánico: Jacinto Rojas Hernandez</h3>
+						<h3>Fecha: 26-03-2021</h3>
+						<h3>Listado materiales usados: Lamina cromado-brillosa</h3>
 					</div>
 					<!--FIN 5to trabajo ejemplo-->
 				</div> 
@@ -120,7 +150,7 @@
 			</footer>
 		</div>
 </div>
-
+<script src="./js/validacion.js"></script>
 </body>
 	
 	

@@ -6,21 +6,14 @@
 	<link type="text/css" rel="stylesheet" href="css/bootstap.css"> 
 	<link type="text/css" rel="stylesheet" href="css/fuente_letra.css">
 	<link type="text/css" rel="stylesheet" href="css/orden.css">  
+	<script src="./js/script.js"> </script>
+	
 </head>
 <body class="body">
 
 <div class="container-fluid">
 	<!-- creo que esto es fila-->
 		<div>
-			<!-- <div class="row" style="float: left; padding: 40px; background: grey; width: 80px; height:100%" >
-				<p class="nada">Inicio</p>
-				<p class="nada">Nosotros</p>
-				<p class="nada">Perros</p>
-				<p class="nada">Gatos</p>
-				<p class="nada">Contactos</p>
-			
-			</div>
-		-->
 		<header class="fondo header1"> <a class="header1 img" href="./index.html"></a> RAYO MAKWEEN </header>
 		<!--indices-->
 		<div class="orden1 index">
@@ -29,20 +22,21 @@
 		<a class="orden1 index" href="./contacto.html"> Contacto</a> 
 		<a class="orden1 index" href="./registro.html"> Registro</a> 
 		<a class="orden1 index" href="./login.html"> Autenticar</a> 
-
 		</div>
 		<!--FIN indices-->
 			<div class="orden1">
 				<!--primera parte-->
+				<form class="" action method="post" onsubmit="return enviarFormulario()">
 				<h1 class="orden1">Contacto</h1>
 				<h3 class="orden1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem beatae sed dolor doloribus, ipsum cumque dolore consequatur. Voluptatibus mollitia ullam ipsam nobis voluptatum reprehenderit porro suscipit est, aperiam, nemo officia.</h3>
 				<div class="">
-					<input class="orden1 contacto" value="" required maxlength="50" placeholder="Ingrese su nombre">
-					<input class="orden1 contacto" value="" maxlength="50" placeholder="Ingrese su correo electronico">
-					<input class="orden1 contacto" type=number value="" maxlength="50" placeholder="Ingrese su telefono (opcional)">
-					<textarea class="orden1 contacto mensaje" type=text value="" maxlength="3000" placeholder="Ingrese mensaje o consulta"></textarea>
-					<a href="#0" onclick="enviarFormulario();" class="orden1 contacto button">Enviar Mensaje</a>
+					<input class="orden1 contacto" name="txtnombre" id="txtnombre" value="" required maxlength="50" placeholder="Ingrese su nombre">
+					<input class="orden1 contacto" name="txtcorreo" id="txtcorreo"  value="" required maxlength="50" placeholder="Ingrese su correo electronico">
+					<input class="orden1 contacto" name="txttelefono" id="txttelefono"  type=number value="" maxlength="50" placeholder="Ingrese su telefono (opcional)">
+					<textarea class="orden1 contacto mensaje" type=text name="txtmensaje" id="txtmensaje" value="" maxlength="3000" placeholder="Ingrese mensaje o consulta"></textarea>
+					<a href="#0" onclick="validartodocontacto()" class="orden1 contacto button">Enviar Mensaje</a>
 				</div>
+				</form>
 			</div>	
 			<footer class="footer">
 				<h1>Contacto</h1>
