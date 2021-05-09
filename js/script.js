@@ -15,7 +15,7 @@ function validarNombre() {
 }
 
 function recuperar_ip() {
-    fetch("https://www.geoplugin.net/json.gp")
+    fetch("https://api.ipify.org?format=json")
     .then(function(response) {
         //status 200 ok, si falla
         if (response.status!=200) {
@@ -24,8 +24,8 @@ function recuperar_ip() {
         }
         response.json().then(function(data) {
             console.log(data);
-            var ip= data.geoplugin_request;
-            alert("ip:" +ip)
+            var ip= data.ip;
+            alert("IP publica de tu dispositivo:" +ip)
 
         })
     })
