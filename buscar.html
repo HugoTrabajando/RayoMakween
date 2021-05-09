@@ -5,7 +5,8 @@
 	<!-- HAY QUE LLAMAR UN DISEÑO TUYO O DE BOOTSTRAP :) -->
 	<link type="text/css" rel="stylesheet" href="css/bootstap.css"> 
 	<link type="text/css" rel="stylesheet" href="css/fuente_letra.css">
-	<link type="text/css" rel="stylesheet" href="css/orden.css">  
+	<link type="text/css" rel="stylesheet" href="css/orden.css"> 
+	<script src="js/script.js"></script> 
 </head>
 <body class="body">
 
@@ -33,14 +34,15 @@
 
 		</div>
 		<!--FIN indices-->
-
+		<form>
 			<div class="orden1">
 				<!--primera parte-->
 				<h1 class="orden1">Buscador por nombre o categoría</h1>
 				<h3 class="orden1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem beatae sed dolor doloribus, ipsum cumque dolore consequatur. Voluptatibus mollitia ullam ipsam nobis voluptatum reprehenderit porro suscipit est, aperiam, nemo officia.</h3>
-				<a class="orden1 buscador">Buscar un mecánico o trabajo: <input class="orden1 buscador" value="" maxlength="128"><button class="orden1 buscador button"> Buscar </button> </a>
+				<a class="orden1 buscador">Buscar un mecánico o trabajo: <input name="txtbuscar" id="txtbuscar" class="orden1 buscador" value="" maxlength="128"><button onclick="return validarbuscar()" class="orden1 buscador button"> Buscar </button> </a>
 				<!--segunda parte-->
 				</div>
+			</form>
 			<footer class="footer">
 				<h1>Contacto</h1>
 				<h3>¿Estás interesad@ en nuestros servicios? Contáctanos también en nuestras RRSS</h3>

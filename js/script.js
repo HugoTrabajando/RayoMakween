@@ -14,6 +14,11 @@ function validarNombre() {
     alert(nombre);
 }
 
+function validarbuscar() {
+    var buscar = document.getElementById('txtbuscar').value;
+    alert('Se quiere buscar lo siguiente: '+buscar);
+}
+
 function recuperar_ip() {
     fetch("https://api.ipify.org?format=json")
     .then(function(response) {
