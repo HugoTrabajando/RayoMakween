@@ -1,3 +1,125 @@
+.ejemplo1 {
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	width: 75%;
+	height: 50%;
+	overflow: hidden;
+	background: white;
+	padding: 30px;
+	display: block;
+	
+	transform: translateX(-100%);
+	transition: all 1.0s;
+}
+
+.ejemplo2 {
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	width: 75%;
+	height: 50%;
+	overflow: hidden;
+	background: white;
+	padding: 30px;
+	display: block;
+	
+	transform: translateX(-100%);
+	transition: all 1.0s;
+}
+
+.ejemplo3 {
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	width: 75%;
+	height: 50%;
+	overflow: hidden;
+	background: white;
+	padding: 30px;
+	display: block;
+	
+	transform: translateX(-100%);
+	transition: all 1.0s;
+}
+
+.ejemplo4 {
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	width: 75%;
+	height: 50%;
+	overflow: hidden;
+	background: white;
+	padding: 30px;
+	display: block;
+	
+	transform: translateX(-100%);
+	transition: all 1.0s;
+}
+
+.ejemplo5 {
+	position: fixed;
+	top: 50px;
+	left: 0px;
+	width: 75%;
+	height: 50%;
+	overflow: hidden;
+	background: white;
+	padding: 30px;
+	display: block;
+	
+	transform: translateX(-100%);
+	transition: all 1.0s;
+}
+
+#ejemplo1-checkbox {
+	display: none
+}
+#ejemplo2-checkbox {
+	display: none
+}
+#ejemplo3-checkbox {
+	display: none
+}
+#ejemplo4-checkbox {
+	display: none
+}
+#ejemplo5-checkbox {
+	display: none
+}
+
+header label {
+    float: right;
+    font-size: 28px;
+    margin: 6px 0px;
+    cursor: pointer;
+}
+
+#ejemplo1-checkbox:checked~.ejemplo1 {
+	transform: translateX(0) ;
+	overflow: hidden;
+}
+
+#ejemplo2-checkbox:checked~.ejemplo2 {
+	transform: translateX(0) ;
+	overflow: hidden;
+}
+
+#ejemplo3-checkbox:checked~.ejemplo3 {
+	transform: translateX(0) ;
+	overflow: hidden;
+}
+
+#ejemplo4-checkbox:checked~.ejemplo4 {
+	transform: translateX(0) ;
+	overflow: hidden;
+}
+#ejemplo5-checkbox:checked~.ejemplo5 {
+	transform: translateX(0) ;
+	overflow: hidden;
+}
+
 * {
 	margin:0px;
 	padding:0px;
