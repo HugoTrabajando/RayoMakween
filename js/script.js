@@ -30,6 +30,20 @@ function validarlogin() {
     alert('Correo: '+correo + '\nContrasena: '+sihaypass);
 }
 
+function validarregistro() {
+    var nombre = document.getElementById('txtnombre').value;
+    var correo = document.getElementById('txtcorreo').value;
+    var contrasena = document.getElementById('txtcontrasena').value;
+    var sihaypass = "No hay texto aquí"
+    if (nombre=='' || correo=='' || contrasena==''){
+        alert("Está todo mal");
+        return;
+    } else {
+        var sihaypass = "Si hay texto! Muy bien";
+    }
+    alert('Nombre: '+nombre+'\nCorreo: '+correo + '\nContrasena: '+sihaypass);
+}
+
 function recuperar_ip() {
     fetch("https://api.ipify.org?format=json")
     .then(function(response) {
