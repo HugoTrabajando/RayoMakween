@@ -15,7 +15,7 @@ function validarNombre() {
 }
 
 function recuperar_ip() {
-    fetch("http://www.geoplugin.net/json.gp")
+    fetch("https://www.geoplugin.net/json.gp")
     .then(function(response) {
         //status 200 ok, si falla
         if (response.status!=200) {
