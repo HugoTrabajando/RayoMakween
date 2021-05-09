@@ -3,10 +3,8 @@ function validartodocontacto() {
     var correo = document.getElementById('txtcorreo').value;
     var telefono = document.getElementById('txttelefono').value;
     var mensaje = document.getElementById('txtmensaje').value;
-    alert('Se ha recuperado el nombre: ' + nombre);
-    alert('Se ha recuperado el correo: ' + correo);
-    alert('Se ha recuperado el telefono: ' + telefono);
-    alert('Se ha recuperado el mensaje: ' + mensaje);
+    alert('Se ha recuperado los siguientes datos: \n Nombre: '+nombre+'\n Correo: '+correo+'\n Telefono: '+telefono+'\n Mensaje: '+mensaje);
+
 }
 
 function validarNombre() {
@@ -17,6 +15,19 @@ function validarNombre() {
 function validarbuscar() {
     var buscar = document.getElementById('txtbuscar').value;
     alert('Se quiere buscar lo siguiente: '+buscar);
+}
+
+function validarlogin() {
+    var correo = document.getElementById('txtcorreo').value;
+    var contrasena = document.getElementById('txtcontrasena').value;
+    var sihaypass = "No hay texto aquí"
+    if (correo=='' || contrasena==''){
+        alert("Está todo mal");
+        return;
+    } else {
+        var sihaypass = "Si hay texto! Muy bien";
+    }
+    alert('Correo: '+correo + '\nContrasena: '+sihaypass);
 }
 
 function recuperar_ip() {
